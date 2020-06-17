@@ -1,4 +1,5 @@
-export { default as Header } from "./Header";
-export { default as Nav } from "./Nav";
-export { default as Main } from "./Main";
-export { default as Footer } from "./Footer";
+export { default as Bio } from "./Bio";
+export { default as Blog } from "./Blog";
+export { default as Form } from "./Form";
+export { default as Gallery } from "./Gallery";
+export { default as Home } from "./Home";
