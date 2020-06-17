@@ -13,15 +13,15 @@
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.1",
-    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "parcel-bundler": "^1.12.4",
     "prettier": "1.19.1",
     "stylelint": "^11.1.1",
     "stylelint-config-prettier": "^6.0.0",
     "stylelint-config-recommended": "^3.0.0",
     "stylelint-prettier": "^1.1.2",
-    "stylelint-vscode": "^7.0.0-6",
-    "parcel-bundler": "^1.12.4"
+    "stylelint-vscode": "^7.0.0-6"
   },
   "dependencies": {
     "navigo": "^7.1.2"
