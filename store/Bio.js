@@ -1,4 +1,4 @@
 export default {
-  header: "Bio"
+  header: "About Superfoods",
   view: "Bio"
-}
+};
