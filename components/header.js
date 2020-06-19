@@ -1,6 +1,5 @@
-export default () => `
+export default st => `
 <header>
-  <h1>Food as Medicine</h1>
-  <h2>Learn how to let food be thy medicine.</h2>
+  <h1>Food is Medicine: ${st.header}</h1>
 </header>
 `;

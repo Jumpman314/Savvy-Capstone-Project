@@ -1,4 +1,4 @@
 export default {
   header: "Comment Section",
-  view: "Form"
+  page: "Form"
 };

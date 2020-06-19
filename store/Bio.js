@@ -1,4 +1,4 @@
 export default {
   header: "About Superfoods",
-  view: "Bio"
+  page: "Bio"
 };
