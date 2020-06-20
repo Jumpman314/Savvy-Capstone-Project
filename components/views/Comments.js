@@ -1,9 +1,12 @@
-export default st => `
-  <form action="/action_page.php">
-  <label for="img">Select image:</label>
-  <input type="file" id="img" name="img" accept="image/*">
-  <input type="submit">
-  </form>
+export default () => `
+  <h1>Comment Section</h1>
+    <form action="/action_page.php" id="userform">
+      Name: <input type="text" name="username">
+    </form>
+    <br>
+    <textarea rows="4" cols="50" name="comment" form="userform">Comment here...</textarea>
+      <input type="submit">
+    </form>
 `;
 
 // <div>

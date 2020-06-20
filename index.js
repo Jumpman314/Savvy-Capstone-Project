@@ -1,17 +1,33 @@
 import { Header, Nav, Main, Footer } from "./components";
 import * as state from "./store";
 import Navigo from "navigo";
+//import { capitalize } from "lodash";
 // import axios from "axios";
 // import {makeAPI} from './components/views/Bio'
 
 const router = new Navigo(window.location.origin);
 
-router
-  .on({
-    ":page": params => render(state[params.page]),
-    "/": () => render(state.Home)
-  })
-  .resolve();
+// router
+//   .on({
+//     ":page": params => render(state[capitalize(params.page)]),
+//     "/": () => render(state.Home)
+//   })
+//   .resolve();
+
+// axios
+//   .get("https://jsonplaceholder.typicode.com/posts")
+//   .then(response => {
+//     console.log("response.data", response.data);
+//     response.data.forEach(post => {
+//       state.Blog.posts.push(post);
+//     });
+//     const params = router.lastRouteResolved().params;
+//     console.log(params);
+//     if (params) {
+//       render(state[params.page]);
+//     }
+//   })
+//   .catch(err => console.log(err));
 
 function render(st = state.Home) {
   document.querySelector("#root").innerHTML = `
@@ -38,7 +54,6 @@ function addNavEventListeners() {
     });
   });
 }
-//addNavEventListeners();
 
 // add menu toggle to bars icon in nav bar
 function addNavToggle() {

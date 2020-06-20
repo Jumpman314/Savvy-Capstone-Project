@@ -1,10 +1,10 @@
-html {
-  color: darkslategray;
-}
-
 form {
   text-align: center;
   padding: 30px;
+}
+
+textarea {
+
 }
 
 header {
@@ -34,17 +34,22 @@ p {
   padding: 20px;
   margin: 20px;
 }
-/* li a:active {
+li a:active {
   position: relative;
   top: 2px;
   bottom: 2px;
-} to make buttons interactive.
-:active is a psuedo-class selector, which we use to style an element only while it’s being clicked.*/
-li {
+/* } to make buttons interactive.
+:active is a psuedo-class selector, which we use to style an element only while it’s being clicked. */
+
+/* li {
   border: 2px solid gray;
-  display: inline;
+  display: inline-flex;
   margin: 20px;
   padding: 20px;
+} */
+
+ul {
+  text-align: center;
 }
 
 main {
