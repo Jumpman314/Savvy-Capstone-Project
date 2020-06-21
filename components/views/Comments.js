@@ -1,4 +1,5 @@
 export default () => `
+  <section id="comments">
   <h1>Comment Section</h1>
     <form action="/action_page.php" id="userform">
       Name: <input type="text" name="username">
@@ -7,6 +8,7 @@ export default () => `
     <textarea rows="4" cols="50" name="comment" form="userform">Comment here...</textarea>
       <input type="submit">
     </form>
+  </section>
 `;
 
 // <div>
