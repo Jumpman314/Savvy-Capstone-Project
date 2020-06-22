@@ -14,7 +14,9 @@ h1 {
   text-align: center;
   font-family: Palatino, "Palatino Linotype", serif;
   font-size: 50px;
-  border: 5px solid gray;
+  background-color: dimgray;
+  border: 5px solid black;
+  border-radius: 20px 20px 20px 20px;
   padding: 20px;
 }
 
@@ -29,23 +31,29 @@ h2 {
 p {
   font-family: Palatino, "Palatino Linotype", serif;
   font-size: 24px;
-  border: 5px solid gray;
+  color: lightcyan;
+  background-color: dimgray;
+  border: 5px solid black;
+  border-radius: 20px 20px 20px 20px;
   padding: 20px;
   margin: 20px;
 }
-/*
-li a:active {
+
+/* li a:active {
   position: relative;
   top: 2px;
   bottom: 2px;
-/* } to make buttons interactive.
+} to make buttons interactive.
 :active is a psuedo-class selector, which we use to style an element only while it’s being clicked. */
 
 li {
-  border: 2px solid gray;
+  background-color: dimgray;
+  border: 2px solid black;
+  border-radius: 20px 20px 20px 20px;
   display: inline-flex;
   margin: 20px;
   padding: 20px;
+  font-weight: bold;
 }
 
 ul {
@@ -57,4 +65,14 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
+}
+
+#gallery {
+  border-radius: 20px 20px 20px 20px;
+  background-color: dimgray;
+  border: 2px solid black;
+}
+
+footer {
+  text-align: center;
 }
