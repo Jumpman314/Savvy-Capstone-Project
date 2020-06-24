@@ -2,6 +2,13 @@ html {
   background-image: url("https://images.pexels.com/photos/2284166/pexels-photo-2284166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
 
+main > p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 #jumbotron {
   background: url(https://images.pexels.com/photos/4198182/pexels-photo-4198182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center center no-repeat;
   background-size: cover;
@@ -75,13 +82,6 @@ li {
 
 ul {
   text-align: center;
-}
-
-main > p {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 20px;
 }
 
 #gallery {
