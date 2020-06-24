@@ -42,7 +42,7 @@ main {
   font-family: Palatino, "Palatino Linotype", serif;
   font-size: 24px;
   color: lightcyan;
-  background-color: darkgrey;
+  background-color: grey;
   border: 5px solid black;
   border-radius: 20px 20px 20px 20px;
   padding: 20px;
@@ -70,7 +70,7 @@ ul {
   text-align: center;
 }
 
-main {
+main > p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

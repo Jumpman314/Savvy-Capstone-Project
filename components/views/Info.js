@@ -58,7 +58,9 @@ export default () => `
     <p>If you're getting plenty of fruits and vegetables, including beans and peas, as well as fortified breads and cereals, you're likely meeting the recommended daily allowance for folic acid (400 micrograms).</p>
     <br />
     <p>Bottom line: Eat plenty of fruits, vegetables, beans, and peas (especially lentils and pinto beans, collard greens, spinach, and other dark-green vegetables).</p>
-    <h6>Dietary Fat's Cancer Connection</h6>
+    <br />
+    <p>Dietary Fat's Cancer Connection</p>
+    <br />
     <p class="boldTitle">Eating-Smart Guidelines</p>
     <br />
     <p>Many of us fear cancer more than any other disease. But any anti-cancer diet should parallel, as much as possible, dietary guidelines aimed at preventing disease in general.</p>
