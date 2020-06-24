@@ -91,6 +91,12 @@ ul {
 }
 
 footer {
+  background-color: dimgray;
+  border: 2px solid black;
+  border-radius: 20px 20px 20px 20px;
+  display: inline-flex;
+  margin: 20px;
+  padding: 20px;
   text-align: center;
   font-size: 20px;
   font-weight: bolder;
