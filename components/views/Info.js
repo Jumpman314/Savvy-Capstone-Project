@@ -97,7 +97,7 @@ export default () => `
     <p>1/8 cup shredded Parmesan cheese</p>
     <br />
     <ul>
-      <li>Heat oil in medium nonstick skillet over medium heat. SautÃ© garlic until lightly golden, stirring often (about 1-2 minutes). Add broccoli and pasta and sautÃ©, stirring occasionally, for 2-3 minutes.</li>
+      <li>Heat oil in medium nonstick skillet over medium heat. Sautee garlic until lightly golden, stirring often (about 1-2 minutes). Add broccoli and pasta and sautee, stirring occasionally, for 2-3 minutes.</li>
       <li>Add salt and red pepper flakes to taste.</li>
       <li>Sprinkle Parmesan cheese over the top. Turn off heat and let rest about a minute before serving.</li>
     </ul>
