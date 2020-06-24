@@ -10,7 +10,7 @@ main > p {
 }
 
 #jumbotron {
-  background: url(https://images.pexels.com/photos/4198182/pexels-photo-4198182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center center no-repeat;
+  background: url(https://images.pexels.com/photos/1414651/pexels-photo-1414651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center center no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
