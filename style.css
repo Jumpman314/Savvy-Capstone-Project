@@ -100,3 +100,7 @@ footer {
   justify-content: center;
   display: flex;
 }
+
+.boldTitle {
+  font-weight: bolder;
+}
