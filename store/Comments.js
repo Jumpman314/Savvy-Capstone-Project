@@ -1,4 +1,4 @@
 export default {
-  header: "Comments",
+  header: "Share Your Story",
   page: "Comments"
 };
