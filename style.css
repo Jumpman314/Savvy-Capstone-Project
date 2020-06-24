@@ -27,6 +27,9 @@ main > p {
 }
 
 #comments {
+  border: 2px solid white;
+  border-radius: 15px 15px 15px 15px;
+  background-color: dimgray;
   text-align: center;
 }
 
