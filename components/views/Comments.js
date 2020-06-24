@@ -1,6 +1,6 @@
 export default () => `
   <section id="comments">
-  <h1>Comment Section</h1>
+  <h1>Share Your Story</h1>
   <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="www.google.com/jumpman.fam314@gmail.com" method="post">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Full Name</label>
